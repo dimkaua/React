@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 3rem;
+  padding-right: 20px;
+}
+
+h1 {
+  color: #556581;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+button {
+  background: transparent;
+  border: 2px solid transparent;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.minus {
+  background-color: #e63946;
+  color: #fff;
+}
+
+.plus {
+  background-color: #2a9d8f;
+  color: #fff;
+}
