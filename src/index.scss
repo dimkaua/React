@@ -7,6 +7,11 @@ body {
   background-color: #e7f6ff;
 }
 
+* {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .wrapper {
   background: #ffffff;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
@@ -61,9 +66,15 @@ header {
 
 .content {
   padding: 40px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
 
   h1 {
-    margin: 0;
     margin-bottom: 40px;
   }
 }
@@ -80,6 +91,13 @@ header {
   width: 210px;
   border-radius: 40px;
   margin: 20px;
+  transition: box-shadow 0.1ms ease-in-out, transform 0.1ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+  }
 
   img {
     display: flex;
@@ -111,4 +129,19 @@ header {
   height: 32px;
   width: 32px;
   cursor: pointer;
+}
+
+.search-block {
+  display: flex;
+  border: 1px solid #f3f3f3;
+  border-radius: 10px;
+  padding: 0 15px;
+
+  input {
+    border: none;
+    padding: 13px;
+    font-size: 16px;
+    width: 200px;
+    outline: 0 !important;
+  }
 }

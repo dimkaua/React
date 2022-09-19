@@ -21,7 +21,13 @@ function App() {
         </ul>
       </header>
       <div className="content">
-        <h1>Всі сенсори</h1>
+        <div className="title">
+          <h1>Всі сенсори</h1>
+          <div className="search-block">
+            <img src="/img/search.svg" alt="Search" />
+            <input placeholder="Пошук..." />
+          </div>
+        </div>
 
         <div className="sensor_card">
           <div className="card">
