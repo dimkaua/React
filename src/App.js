@@ -1,6 +1,34 @@
 function App() {
   return (
     <div className="wrapper">
+      <div className="overlay">
+        <div className="drawer">
+          <h2>Кошик</h2>
+
+          <div className="cart_item">
+            <img width={70} height={70} src="/img/sensor/1.jpg" alt="Sensor" />
+            <div>
+              <p>
+                Бездротовий датчик детектування диму та чадного газу Ajax
+                FireProtect Plus EU Black
+              </p>
+              <b>2 960 грн.</b>
+            </div>
+            <img className="btn_remove" src="/img/btn-remove.svg" />
+          </div>
+          <div className="cart_item">
+            <img width={70} height={70} src="/img/sensor/1.jpg" alt="Sensor" />
+            <div>
+              <p>
+                Бездротовий датчик детектування диму та чадного газу Ajax
+                FireProtect Plus EU Black
+              </p>
+              <b>2 960 грн.</b>
+            </div>
+            <img className="btn_remove" src="/img/btn-remove.svg" />
+          </div>
+        </div>
+      </div>
       <header>
         <div className="headerLeft">
           {' '}
