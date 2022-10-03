@@ -1,53 +1,11 @@
+import Drawer from './components/Drawer'
+import Header from './components/Header'
+
 function App() {
   return (
     <div className="wrapper">
-      <div className="overlay">
-        <div className="drawer">
-          <h2>Кошик</h2>
-
-          <div className="cart_item">
-            <img width={70} height={70} src="/img/sensor/1.jpg" alt="Sensor" />
-            <div>
-              <p>
-                Бездротовий датчик детектування диму та чадного газу Ajax
-                FireProtect Plus EU Black
-              </p>
-              <b>2 960 грн.</b>
-            </div>
-            <img className="btn_remove" src="/img/btn-remove.svg" />
-          </div>
-          <div className="cart_item">
-            <img width={70} height={70} src="/img/sensor/1.jpg" alt="Sensor" />
-            <div>
-              <p>
-                Бездротовий датчик детектування диму та чадного газу Ajax
-                FireProtect Plus EU Black
-              </p>
-              <b>2 960 грн.</b>
-            </div>
-            <img className="btn_remove" src="/img/btn-remove.svg" />
-          </div>
-        </div>
-      </div>
-      <header>
-        <div className="headerLeft">
-          {' '}
-          <img width={60} height={60} src="/img/logo.png" />
-          <div>
-            <h3>Sensor Shop</h3>
-            <p>Великий вибір сенсорів</p>
-          </div>
-        </div>
-        <ul className="headerRight">
-          <li>
-            <img width={30} height={30} src="/img/basket.png" />
-            <span>1800 грн.</span>
-          </li>
-          <li>
-            <img width={30} height={30} src="/img/person.png" />
-          </li>
-        </ul>
-      </header>
+      <Drawer />
+      <Header />
       <div className="content">
         <div className="title">
           <h1>Всі сенсори</h1>
